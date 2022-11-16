@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p id="output"></p>
+
+        <script>
+
+            var dt = new Date(1100, 2);
+            document.getElementById("output").innerHTML = dt;
+
+            dt.sethours(11);
+            dt.setminutes(25);
+            dt.setyear(2009);
+            document.getElementById("output").innerHTML = dt;
+        </script>
+    </body>
+</html>
